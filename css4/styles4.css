@@ -1,0 +1,179 @@
+#title
+{
+    color: white;
+    background-color: #ff4c68;
+}
+h1
+{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+   font-size: 3rem;
+   line-height: 1.5;
+}
+h3
+{
+    font-size: 2.5rem;
+}
+p
+{
+    color: #1c1919;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+a 
+{
+    padding-left: 15%;
+}
+ul
+{
+    padding-right: 15%;
+}
+/* navigation bar */
+
+.navbar-brand
+{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+   
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+/* Download buutons */
+
+.Download-button
+{
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+
+.title-image
+{
+    transform: rotate(25deg);
+    width: 21%;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+#features
+{
+    background-color: #fff;
+    padding: 3% 15%;
+    position: relative;
+    
+}
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+.fa-heart
+{
+    font-size: 3rem;
+}
+.fa-bullseye
+{
+    font-size: 3rem;
+}
+.fa-circle-check
+{
+    font-size: 3rem;
+}
+.Icon
+{
+    padding: 1rem;
+}
+.Icon-H:hover
+{
+    color:  #ec0707;
+}
+/* Testimonial section */
+#testimonials
+{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-img
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* carousel Items */
+
+.carousel-item
+{
+    padding: 3% 15%;
+}
+
+/* press section */
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+/* Media query */
+
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    color:#fff;
+    padding: 25px 10px;
+    margin:auto;
+}
+#footer
+{
+    text-align: center;
+    background-color: #fff;
+    text-align: center;
+}
+.footer-link
+{
+    padding: 10px;
+    font-size: xx-large;
+}
+
